@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/taxi2024.css">
+    
+    <title>TAXI 2024</title>
+  </head>
+
+  
+  <body>
+    <header>
+      <h1 class="titulo_principal">Taxi 2024</h1>
+    </header>
+
+      <nav class="navegacion_principal">
+        <a href="/index.html">Inicio</a>
+        <a href="/Mas_Sobre_Nosotros.html"> Mas Sobre Nosotros</a>
+        <a href="./Clientes.html">Clientes</a>
+        <a href="#contactanos">Contactos</a>
+      </nav>
+  
+
+    <section class="banner">
+      <h2>Servicio de transporte de personas</h2>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#ff9300"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="64"
+        height="64"
+        stroke-width="2"
+      >
+        <path
+          d="M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1 -7 0a5 5 0 0 0 -7 0v-9z"
+        ></path>
+        <path d="M5 21v-7"></path>
+      </svg>
+      <p>Nicoya, Guanacaste. Costa Rica</p>
+      <a class="boton" href="#">Contactanos</a>
+    </section>
+
+    <main class="contenedor sombra">
+      <h2>Servicios</h2>
+      <div class="servicios">
+        <section class="servicio">
+          <h3>Transporte Larga Distancia</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-map-2"
+            width="68"
+            height="68"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ff9300"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" />
+            <path d="M9 4v13" />
+            <path d="M15 7v5.5" />
+            <path
+              d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z"
+            />
+            <path d="M19 18v.01" />
+          </svg>
+          <p>
+            brindamos una experiencia de viaje cómoda y segura a aquellos que necesitan trasladarse entre ciudades, o cubrir trayectos extensos fuera del área de servicio comun.
+          </p>
+        </section>
+
+        <section class="servicio">
+          <h3>Transporte Local</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x-bind:width="size"
+            x-bind:height="size"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#ff9300"
+            x-bind:stroke-width="stroke"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            width="64"
+            height="64"
+            stroke-width="2"
+          >
+            <path d="M21 12a9 9 0 1 0 -8.352 8.977"></path>
+            <path d="M9 10h.01"></path>
+            <path d="M15 10h.01"></path>
+            <path
+              d="M9.5 15c.658 .672 1.56 1 2.5 1c.102 0 .203 -.004 .304 -.012"
+            ></path>
+            <path
+              d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z"
+            ></path>
+            <path d="M19 18v.01"></path>
+          </svg>
+          <p>
+            Nos especializamos en trasporte rapido, barato y seguro, con gran ampliedad de choferes que haran de su viaje confortable. 
+          </p>
+        </section>
+
+        <section class="servicio">
+          <h3>Reservas</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-reserved-line"
+            width="68"
+            height="68"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ff9300"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 20h6" />
+            <path d="M12 14v6" />
+            <path
+              d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+            />
+            <path d="M9 9h6" />
+          </svg>
+          <p>
+            Nuestro Servicio de Reservas de Viaje permite a nuestros clientes planificar sus traslados con antelación, asegurando una experiencia de transporte
+             sin contratiempos y adaptada a sus necesidades específicas.
+          </p>
+        </section>
+      </div>
+      <section>
+        <section id="contactanos">
+          <h2>Contáctanos</h2>
+          <form class="needs-validation" novalidate>
+            <fieldset>
+              <legend>Completa la información:</legend>
+              <div class="contenedor_campos">
+                <div class="campo">
+                  <label for="txtnombre">Nombre Completo:</label>
+                  <input class="input-texto" type="text" name="txtnombre" id="txtnombre" required minlength="3" />
+                </div>
+                <div class="campo">
+                  <label for="txttelefono">Teléfono:</label>
+                  <input class="input-texto" type="tel" name="txttelefono" id="txttelefono" required pattern="[0-9]{8,15}" title="Ingresa un número de teléfono válido (8-15 dígitos)" />
+                </div>
+                <div class="campo">
+                  <label for="txtemail">Email:</label>
+                  <input class="input-texto" type="email" name="txtemail" id="txtemail" required />
+                </div>
+                <div class="campo">
+                  <label for="txtmensaje">Mensaje:</label>
+                  <textarea class="input-texto" name="txtmensaje" id="txtmensaje" rows="10" required minlength="10" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+              </div>
+              <input class="boton" type="submit" value="ENVIAR" />
+            </fieldset>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>Todos los derechos reservados. HEMM</p>
+    </footer>
+  </body>
+</html>
