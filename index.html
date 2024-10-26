@@ -155,11 +155,18 @@
                 </div>
                 <div class="campo">
                   <label for="txtemail">Email:</label>
-                  <input class="input-texto" type="email" name="txtemail" id="txtemail" required />
+                  <input 
+                    class="input-texto" 
+                    type="email" 
+                    name="txtemail" 
+                    id="txtemail" 
+                    required 
+                    placeholder="ejemplo@dominio.com"
+                  />
                 </div>
                 <div class="campo">
                   <label for="txtmensaje">Mensaje:</label>
-                  <textarea class="input-texto" name="txtmensaje" id="txtmensaje" rows="10" required minlength="10" 
+                  <textarea class="input-texto" name="txtmensaje" id="txtmensaje" rows="10" required minlength="10" maxlength="150"
                   placeholder="Escribe tu mensaje aquí..."></textarea>
                 </div>
               </div>
